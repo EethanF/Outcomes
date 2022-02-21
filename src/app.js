@@ -29,13 +29,12 @@ const app = (args) => {
       movie.addMovie();
       const movieTwo = new Movie(args[5], args[6]);
       console.log(movieTwo.addMovie());
-      // take user inputted movie, add to an array and console.log that array
       break;
     default:
       console.log("Incorrect input");
       break;
   }
 };
-//can make anoher case with "add multi"
+//can make another case with "add multi"
 
 app(process.argv);
