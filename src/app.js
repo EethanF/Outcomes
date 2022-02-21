@@ -19,7 +19,7 @@
 // };
 
 // app(process.argv); //gotta run function to display in console 
-
+// attempt with switch statements
 const Movie = require("./utils");
 
 const app = (args) => {
